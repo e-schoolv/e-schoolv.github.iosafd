@@ -5,8 +5,7 @@ function progress (){
     function progressStatus () {
        if (width >= 100) {
         clearInterval(id);
-        window.close("thanks.html");
-        window.open("index.html");
+        window.location.href = 'index.html';
        } else{
         width++;
         el.style.width = width + '%';
