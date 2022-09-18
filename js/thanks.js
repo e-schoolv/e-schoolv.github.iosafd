@@ -5,6 +5,7 @@ function progress (){
     function progressStatus () {
        if (width >= 100) {
         clearInterval(id);
+        window.close("thanks.html");
         window.open("index.html");
        } else{
         width++;
